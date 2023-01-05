@@ -31,7 +31,7 @@ export class BusquedaComponent {
     // Almacena en el arreglo las busquedas
     this.gifsService.buscarGifs(valor);
 
-    // Al presionar enter la búsqueda se borra
+    // Al presionar enter la búsqueda se borra en input
     this.txtBuscar.nativeElement.value = '';
   }
 }
